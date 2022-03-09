@@ -45,7 +45,8 @@ export const Container = styled.div`
 			outline: none;
 			font-size: 1.2rem;
 			font-weight: bold;
-			color: var(background);
+			text-transform: uppercase;
+			color: #333;
 		}
 	}
 	.footer {
