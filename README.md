@@ -18,3 +18,13 @@ Pagina "/edit:TokenName"
 Modal Pagina edit
 
 ![image](https://user-images.githubusercontent.com/87707157/157376458-f1b4e31e-48c6-4e55-b80e-02af375167b7.png)
+
+<br/>
+
+<ul>Api utilizadas
+<li>React Router</li>
+  <li>React icons</li>
+  <li>React Modalr</li>
+  <li>React Toastify</li>
+  <li>Styled Components</li>
+</ul>
