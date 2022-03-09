@@ -30,7 +30,7 @@ Error messages
 <ul>Api utilizadas
 <li>React Router</li>
   <li>React icons</li>
-  <li>React Modalr</li>
+  <li>React Modal</li>
   <li>React Toastify</li>
   <li>Styled Components</li>
 </ul>
