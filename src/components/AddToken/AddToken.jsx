@@ -26,7 +26,7 @@ export const AddToken = () => {
 				navigate('/');
 			}
 		} catch {
-			toast.error('token name is required');
+			toast.error('token name and balance is required');
 		}
 	};
 
