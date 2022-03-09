@@ -5,7 +5,10 @@ const TokenContext = createContext();
 
 export function TokenProvider({ children }) {
 	useEffect(() => {
-		localStorage.setItem('data', JSON.stringify(data));
+		const setData = () => {
+			localStorage.setItem('data', JSON.stringify(data));
+		};
+		setData();
 	}, []);
 	const [crypto, setCrypto] = useState(() => {
 		const storagedCrypto = localStorage.getItem('data');
