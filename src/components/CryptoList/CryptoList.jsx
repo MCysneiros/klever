@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { useToken } from '../../hooks/useToken';
 export const CryptoList = () => {
 	const { crypto } = useToken();
-	console.log(window.location.pathname);
 	const tokenRender = crypto.map(token => {
 		return (
 			<li className='TokenList' key={token.name}>

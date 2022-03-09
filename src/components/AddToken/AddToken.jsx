@@ -22,7 +22,6 @@ export const AddToken = () => {
 					style: 'decimal',
 				}).format(balance);
 				console.log(addedNumber);
-				const addedToken = tokenName;
 				addToken(upperTokenName, addedNumber);
 				navigate('/');
 			}

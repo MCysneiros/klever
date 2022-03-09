@@ -13,10 +13,11 @@ export const Container = styled.div`
 			margin-left: 3px;
 		}
 		display: flex;
-		img {
+
+		.svgStar {
 			width: 3rem;
-			#layer_1 {
-			}
+			filter: invert(99%) sepia(93%) saturate(1423%) hue-rotate(331deg)
+				brightness(110%) contrast(113%);
 		}
 	}
 	.Add-Token-btn {

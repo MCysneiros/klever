@@ -49,13 +49,12 @@ export function TokenProvider({ children }) {
 		}
 	};
 
-	const editToken = (cryptoName, cryptoBalance) => {
+	const editToken = (cryptoName, cryptoBalance, oldName) => {
 		try {
 			const updatedCrypto = [...crypto];
 			const cryptoIndex = updatedCrypto.findIndex(
-				crypto => crypto.name === cryptoName
+				crypto => crypto.name === oldName
 			);
-
 			if (cryptoIndex >= 0) {
 				updatedCrypto[cryptoIndex].balance = cryptoBalance;
 				updatedCrypto[cryptoIndex].name = cryptoName;
