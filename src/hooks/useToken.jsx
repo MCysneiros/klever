@@ -1,8 +1,12 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
+import data from '../../data';
 const TokenContext = createContext();
 
 export function TokenProvider({ children }) {
+	useEffect(() => {
+		localStorage.setItem('data', JSON.stringify(data));
+	}, []);
 	const [crypto, setCrypto] = useState(() => {
 		const storagedCrypto = localStorage.getItem('data');
 		if (storagedCrypto) {
