@@ -49,7 +49,7 @@ export function TokenProvider({ children }) {
 				localStorage.setItem('data', JSON.stringify(updatedCrypto));
 			}
 		} catch {
-			toast.error('Error removing the product');
+			toast.error('Error removing the token');
 		}
 	};
 
