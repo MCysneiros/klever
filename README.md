@@ -19,6 +19,12 @@ Modal Pagina edit
 
 ![image](https://user-images.githubusercontent.com/87707157/157376458-f1b4e31e-48c6-4e55-b80e-02af375167b7.png)
 
+Error messages
+
+![image](https://user-images.githubusercontent.com/87707157/157424723-31029c90-5168-4c4b-a161-88f4dfeddfd7.png)
+![image](https://user-images.githubusercontent.com/87707157/157424761-88180221-ebfe-49dc-a06b-c23196a85d54.png)
+
+
 <br/>
 
 <ul>Api utilizadas
